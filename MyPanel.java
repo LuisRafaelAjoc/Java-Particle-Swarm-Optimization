@@ -11,13 +11,13 @@ public class MyPanel extends JPanel implements ActionListener, MouseListener {
     final int PANEL_HEIGHT = 650;
     Timer timer;
 
-    // Configuration examples
+    // Hyperparameter configuration examples
     // 0.9, 2, 0.2;
     // 0.7, 2, 0.5;
     // 1, 4, 0
     // 0.5, 2, 2
     // 0.9, 0.2, 2
-    // 0.9, 1.2, 0.2; Use this one
+    // 0.9, 1.2, 0.2; Note to self: Use this one
     MyPanel() {
         searchSpace = new SearchSpace (0.9, 1.2, 0.2, PANEL_WIDTH, PANEL_HEIGHT, 2, false);
         this.setPreferredSize(new Dimension(PANEL_WIDTH, PANEL_HEIGHT));
