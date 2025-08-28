@@ -2,6 +2,7 @@
 A simple implementation of Particle Swarm Optimization Visualizer in Java. Final Project for CC 204: Data Structures and Algorithms
 
 Just run Main.java
+
 Left-click to assign goal state in search space.
 
 setConfiguration (Particle initial positions):
